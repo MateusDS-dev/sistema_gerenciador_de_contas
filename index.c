@@ -97,7 +97,7 @@ void alterarSaldo(FILE *arq)
             
             fseek(arq, 0, SEEK_CUR); 
 
-            printf("\nSaldo updated com sucesso.\n");
+            printf("\nSaldo atualizado com sucesso.\n");
             return;
         }
     }
